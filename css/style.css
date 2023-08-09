@@ -1,0 +1,46 @@
+body {
+  background-color: #ffef59;
+}
+
+.container1 {
+  width: 450px;
+  height: auto;
+}
+
+img {
+  width: 180px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.btnSend {
+  width: 100%;
+}
+
+.icon {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.seila {
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer {
+  margin-top: 51px;
+  margin-bottom: 5px;
+}
+
+.iconPassword {
+  width: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
