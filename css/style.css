@@ -24,7 +24,7 @@ img {
   margin-right: 5px;
 }
 
-.seila {
+.bootstrapInline {
   display: flex;
   justify-content: space-between;
 }
@@ -41,6 +41,13 @@ img {
 
 .iconPassword {
   width: 50px;
+}
+
+.bootstrapInline {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
