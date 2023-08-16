@@ -2,6 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: $primaryColor;
+}
+
+.container{
+    width: 450px;
+    height: auto;
+}
 
 .footer{
     margin-top: 51px;

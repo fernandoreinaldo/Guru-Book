@@ -1,10 +1,11 @@
-body {
-  background-color: #ffef59;
+.bodyLogin {
+  background-color: rgb(160, 149, 49);
 }
 
-.container1 {
+.containerLogin {
   width: 450px;
-  height: auto;
+  height: 100vh;
+  background-color: #ffef59;
 }
 
 img {
@@ -32,6 +33,15 @@ img {
 * {
   margin: 0px;
   padding: 0px;
+}
+
+body {
+  background-color: #ffef59;
+}
+
+.container {
+  width: 450px;
+  height: auto;
 }
 
 .footer {

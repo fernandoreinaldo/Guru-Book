@@ -1,10 +1,11 @@
-body{
-    background-color: $primaryColor;
+.bodyLogin{
+    background-color: $secondaryColor;
 }
 
-.container1{
+.containerLogin{
     width: 450px;
-    height: auto;
+    height: 100vh;
+    background-color: $primaryColor;
 }
 
 img{
