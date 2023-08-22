@@ -5,10 +5,10 @@
 .containerLogin {
   width: 450px;
   height: 100vh;
-  background-color: #ffef59;
+  background-color: #ffd901;
 }
 
-img {
+.logoGBLogin {
   width: 180px;
 }
 
@@ -35,8 +35,8 @@ img {
   padding: 0px;
 }
 
-body {
-  background-color: #ffef59;
+.bodyYellow {
+  background-color: #ffd901;
 }
 
 .container {
@@ -47,6 +47,23 @@ body {
 .footer {
   margin-top: 51px;
   margin-bottom: 5px;
+}
+
+.header {
+  background-color: #ffd901;
+  font-size: 18px;
+}
+.header .logoGB {
+  width: 70px;
+}
+
+.containerAnnounce {
+  width: 100%;
+  max-height: 650px;
+}
+.containerAnnounce img {
+  height: 200px;
+  width: 100%;
 }
 
 .iconPassword {
@@ -66,7 +83,7 @@ body {
 }
 
 .fundo {
-  color: #ffef59;
+  color: #ffd901;
 }
 
 .question {

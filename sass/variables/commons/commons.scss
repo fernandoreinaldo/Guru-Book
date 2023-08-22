@@ -1,17 +1,36 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+.bodyYellow {
     background-color: $primaryColor;
 }
 
-.container{
+.container {
     width: 450px;
     height: auto;
 }
 
-.footer{
+.footer {
     margin-top: 51px;
     margin-bottom: 5px;
+}
+
+.header {
+    background-color: $primaryColor;
+    font-size: 18px;
+    .logoGB{
+        width: 70px;
+    }
+}
+
+.containerAnnounce{
+    width: 100%;
+    max-height: 650px;
+    
+    img{
+        height: 200px;
+        width: 100%;
+    }
 }
