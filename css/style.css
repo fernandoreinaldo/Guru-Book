@@ -57,13 +57,8 @@
   width: 70px;
 }
 
-.containerAnnounce {
-  width: 100%;
-  max-height: 650px;
-}
-.containerAnnounce img {
-  height: 200px;
-  width: 100%;
+.bold {
+  font-weight: bold;
 }
 
 .iconPassword {
@@ -114,6 +109,44 @@
   justify-content: center;
   align-items: center;
   border-radius: 10%;
+}
+
+.containerAnnounce {
+  width: 100%;
+  max-height: 250px;
+}
+.containerAnnounce img {
+  height: 250px;
+  width: 100%;
+}
+
+.containerRecomendation {
+  width: 100%;
+  max-height: 500px;
+}
+
+.booksRecomendation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.bookRecomendation {
+  width: 200px;
+  height: 250px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book .img {
+  width: 200px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
