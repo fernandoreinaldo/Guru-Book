@@ -1,0 +1,20 @@
+.containerBook{
+    margin: 0px 50px 0px 50px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgBook{
+    width: 250px;
+    height: auto;
+}
+
+.bookDetails{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    margin-left: 200px;
+}
+

@@ -45,8 +45,16 @@
 }
 
 .footer {
+  height: 200px;
   margin-top: 51px;
   margin-bottom: 5px;
+  background-color: #ffd901;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer .logoGB {
+  width: 100px;
 }
 
 .header {
@@ -135,7 +143,7 @@
 
 .bookRecomendation {
   width: 200px;
-  height: 250px;
+  height: 280px;
 }
 
 .book {
@@ -147,6 +155,30 @@
 .book .img {
   width: 200px;
   height: 200px;
+}
+
+.subtitle {
+  font-size: 10px;
+}
+
+.containerBook {
+  margin: 0px 50px 0px 50px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imgBook {
+  width: 250px;
+  height: auto;
+}
+
+.bookDetails {
+  width: 400px;
+  height: auto;
+  background-color: white;
+  margin-left: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
