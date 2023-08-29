@@ -35,6 +35,14 @@
   padding: 0px;
 }
 
+.header {
+  background-color: #ffd901;
+  font-size: 18px;
+}
+.header .logoGB {
+  width: 70px;
+}
+
 .bodyYellow {
   background-color: #ffd901;
 }
@@ -45,8 +53,8 @@
 }
 
 .footer {
+  width: 100%;
   height: 200px;
-  margin-top: 51px;
   margin-bottom: 5px;
   background-color: #ffd901;
   display: flex;
@@ -55,14 +63,6 @@
 }
 .footer .logoGB {
   width: 100px;
-}
-
-.header {
-  background-color: #ffd901;
-  font-size: 18px;
-}
-.header .logoGB {
-  width: 70px;
 }
 
 .bold {
@@ -161,8 +161,14 @@
   font-size: 10px;
 }
 
-.containerBook {
+.body {
+  display: flex;
+  flex-direction: column;
   margin: 0px 50px 0px 50px;
+}
+
+.containerBook {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -179,7 +185,7 @@
 
 .avaliations {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: end;
 }
@@ -217,6 +223,30 @@
 
 .subtitleBook {
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.bookDescription {
+  width: 100%;
+  height: auto;
+  padding: 0px 10px 0px 10px;
+}
+
+.informations {
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
+}
+
+.information {
+  width: 170px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
